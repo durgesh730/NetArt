@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cabin+Condensed&family=Courgette&family=Fira+Sans&family=Fredoka+One&family=Inter:wght@300&family=Leckerli+One&family=Montez&family=Pacifico&family=Philosopher&family=Poppins:wght@300&family=Roboto&family=Roboto+Condensed&family=Rubik&family=Signika+Negative:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@300;400&family=Varela+Round&family=Yanone+Kaffeesatz&display=swap');
+
+body {
+    background: rgb(253, 187, 45);
+    background: linear-gradient(0deg, rgb(255, 246, 178) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.logo {
+    width: 16rem;
+}
+
+.MainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
+}
+
+.textimage {
+    padding-left: 6rem;
+}
+
+.ImageInPara {
+    padding: .5rem 0rem;
+}
+
+.ImageInPara img {
+    width: 35rem;
+}
+
+.RightImgtext {
+    padding-left: 1rem;
+}
+
+.firsttext span {
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.LargeImage img {
+    width: 40rem;
+}
+
+.RightImgtext .SecondText small li {
+    font-size: .8rem;
+}
+
+.LastText {
+    line-height: 1rem;
+}
+
+.LastText span {
+    font-size: .8rem;
+}
+
+@media screen and (max-width:1300px) {
+    .linetext small{
+         padding: 0rem 3rem ;
+    }
+    .LargeImage img {
+        width: 100%;
+    }
+    .textimage {
+        padding-left: 5rem;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    .linetext small{
+         padding: 0rem 3rem ;
+    }
+    .LargeImage img {
+        width:100%;
+    }
+    .textimage {
+        padding-left: 3rem;
+    }
+}
+
+
+.linetext {
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.linetext small {
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.bottomImg {
+    text-align: center;
+    padding: 2rem 8rem;
+}
+
+.bottomImg  div{
+    padding-top: 1rem;
+}
+
+hr.new1 {
+    border-top: 5px solid red;
+}
+
+.Lastsecond {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.lasttext {
+    text-align: center;
+    padding: 1.5rem 2rem;
+}
+
+.lasttext span {
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.footer {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1.5rem 0rem;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:1024px) {
+    .MainDiv {
+        display: block;
+    }
+
+    .LargeImage {
+        text-align: center;
+    }
+
+    .LargeImage img {
+        width: 12rem;
+    }
+
+    .textimage {
+        padding-left: 0rem;
+    }
+    .bottomImg {
+        padding: 1rem 6rem;
+    }
+
+}
+
+
+@media screen and (max-width:800px) {
+    .footer {
+        padding-left: 6rem;
+        display: block;
+    }
+    .textimage {
+        padding-left: 1rem;
+    }
+    .MainDiv {
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+    .bottomImg {
+        text-align: center;
+        padding: 2rem 2rem;
+    }
+    
+    .bottomImg  div{
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .textimage {
+        padding-left: 0rem;
+    }
+
+    .footer {
+        padding-left: 2rem;
+    }
+     
+    .MainDiv {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: .5rem;
+    }
+
+    .bottomImg {
+        text-align: center;
+        padding: 2rem .3rem;
+    }
+
+    .lasttext {
+        text-align: center;
+        padding: 1.3rem 1rem;
+    }
+
+    .firsttext span {
+        font-size: .7rem;
+        line-height: .4rem;
+    }
+
+    .RightImgtext {
+        padding-left: .5rem;
+    }
+
+    .RightImgtext .SecondText small li {
+        font-size: .65rem;
+    }
+
+    .LastText span {
+        font-size: .65rem;
+    }
+
+    .lasttext span {
+        font-size: .6rem;
+    }
+
+    .Lastsecond {
+        font-size: .7rem;
+    }
+
+    .linetext small {
+        font-size: .7rem;
+        font-weight: 600;
+    }
+
+    .bottomImg span {
+        font-size: .6rem
+    }
+
+    .lasttext {
+        padding: 1.5rem .7rem;
+    }
+
+    .bottomImg  div{
+        padding-top: .3rem;
+    }
+}
